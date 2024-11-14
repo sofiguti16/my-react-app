@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-function Square({ value }) {
+function Square({ value, onSquareClick }) {
   return (
     <button className="square" onClick={onSquareClick}>
       {value}
@@ -30,3 +30,5 @@ export default function Board() {
     </>
   );
 }
+
+// I'm stuck I give up sorry
